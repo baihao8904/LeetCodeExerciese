@@ -5,7 +5,6 @@ class Solution:
         ans = 0
         while n :
             lastnum = n&1
-            print(lastnum)
             n >>=1
             ans = ans|lastnum
             ans<<=1
@@ -13,4 +12,4 @@ class Solution:
 
 if __name__ == '__main__':
     test = Solution()
-    print(test.reverseBits(43261596))
+    print(test.reverseBits(1))
